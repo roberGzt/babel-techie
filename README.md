@@ -39,6 +39,7 @@ Babel provee de una serie de plugins ya desarrollados para transformar nuestro J
 ## ¿Cómo se instala? ##
 #### Prerequisitos ####
 * [Node.js](https://nodejs.org/es/)
+* [Webpack](https://webpack.js.org/) (Para la forma en que lo vamos a usar)
 
 Luego de tener instalado node.js, dentro de la carpeta del proyecto en el que queremos usar webpack debemos inicializar npm para que gestione nuestras dependencias sobre librerias (entre ellas, webpack):
 ```
@@ -48,8 +49,8 @@ npm init -y
 Usamos la opción *-y* para aceptar las opciones por defecto.
 Esto nos creará un archivo **package.json** en nuestro proyecto.
 
-Con el package.json creado en nuestro proyecto ya podemos instalar webpack:
+Con el package.json creado en nuestro proyecto ya podemos instalar babel:
 
 ```
-npm install webpack webpack-cli --save-dev
+npm install --save-dev babel-loader babel-core
 ```
