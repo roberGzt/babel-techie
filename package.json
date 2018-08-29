@@ -1,0 +1,27 @@
+{
+  "name": "babel-techie",
+  "version": "1.0.0",
+  "description": "Techie sobre babel con webpack",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberGzt/babel-techie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roberGzt/babel-techie/issues"
+  },
+  "homepage": "https://github.com/roberGzt/babel-techie#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
