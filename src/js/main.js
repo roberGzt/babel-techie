@@ -1,4 +1,5 @@
 import { boton,mensaje } from './domLoader';
+import { log } from './logger';
 import '../css/main.css';
 import '../css/botones.css';
 var mostrarMensaje = false;
@@ -10,6 +11,7 @@ function toggleMostrarMensaje() {
     mostrarMensaje = !mostrarMensaje;
     actualizarMensaje();
     actualizarBoton()
+    log("Boton Clickeado");
 }
 
 function actualizarBoton() {

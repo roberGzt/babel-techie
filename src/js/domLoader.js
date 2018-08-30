@@ -1,2 +1,2 @@
-export var boton = document.querySelector('.boton');
-export var mensaje = document.querySelector('.mensaje');
+export const boton = document.querySelector('.boton');
+export const mensaje = document.querySelector('.mensaje');
