@@ -17,6 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/plugin-transform-block-scoping": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
     "babel-loader": "^8.0.0",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
