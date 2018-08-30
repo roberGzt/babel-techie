@@ -2,7 +2,7 @@ import { boton,mensaje } from './domLoader';
 import { log } from './logger';
 import '../css/main.css';
 import '../css/botones.css';
-var mostrarMensaje = false;
+let mostrarMensaje = false;
 
 boton.addEventListener('click', toggleMostrarMensaje);
 actualizarMensaje();

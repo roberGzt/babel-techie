@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
+    "build-prod": "webpack -p",
     "start": "webpack-dev-server --open"
   },
   "repository": {
