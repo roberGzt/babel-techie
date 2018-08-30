@@ -1,3 +1,4 @@
+import '@babel/polyfill';
 import { boton,mensaje } from './domLoader';
 import { log } from './logger';
 import '../css/main.css';
