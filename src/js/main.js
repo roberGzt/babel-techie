@@ -1,6 +1,6 @@
 import "@babel/polyfill"; // no es necesario importarlo si usamos la opcion useBuiltIns: 'usage',
 import { boton, mensaje } from "./domLoader";
-import { log } from "./logger";
+import { Logger } from "./logger";
 import { unaPromise } from "./promises";
 import "../css/main.css";
 import "../css/botones.css";
@@ -13,7 +13,7 @@ function toggleMostrarMensaje() {
   mostrarMensaje = !mostrarMensaje;
   actualizarMensaje();
   actualizarBoton();
-  log("Boton Clickeado");
+  Logger.log("Boton Clickeado");
 
   unaPromise().then(mensaje => {
     alert(mensaje);
