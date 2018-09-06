@@ -29,8 +29,5 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0"
-  },
-  "browserslist": [
-    "ie 11"
-  ]
+  }
 }
